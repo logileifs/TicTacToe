@@ -5,10 +5,14 @@
  * Time: 17:10
  * To change this template use File | Settings | File Templates.
  */
+
 public class TicTacToe{
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
+        int faggi = 0;
         System.out.println("Tic Tac Toe");
+
     }
 
 }
