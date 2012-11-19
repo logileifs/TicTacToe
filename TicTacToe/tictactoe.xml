@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="TicTacToe" default="compile" basedir=".">
+
+    <description>
+        This is the TicTacToe build file
+    </description>
+
+
+    <target name="clean">
+        <delete dir="target" failonerror="true"/>
+    </target>
+
+    <target name="compile">
+            <mkdir dir="target/classes"/>
+            <javac srcdir="${basedir}/src" includes="**/*.java" destdir="target/classes"/>
+        </target>
+
+</project>
