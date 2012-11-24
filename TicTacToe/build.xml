@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="TicTacToe" default="compile" basedir=".">
+
+    <property name="src.dir"     value="src"/>
+    <property name="build.dir"   value="build"/>
+    <property name="classes.dir" value="${build.dir}/classes"/>
+    <property name="jar.dir"     value="${build.dir}/jar"/>
+    <property name="main-class"  value="TicTacToe"/>
+    <property name="lib.dir"     value="lib"/>
+    <property name="tests.dir"     value="tests"/>
+
+    <path id="classpath">
+        <fileset dir="${lib.dir}" includes="**/*.jar"/>
+    </path>
+
+
+    <path id="application" location="${jar.dir}/${ant.project.name}.jar"/>
+
+    <path id="test.classpath.id">
+        <pathelement location="{tests.dir}"/>
+        <fileset dir="${basedir}/lib">
+            <include name="junit*.jar"/>
+        </fileset>
+    </path>
+
+    <target name="clean">
+        <delete dir="target" failonerror="true"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="target/classes"/>
+        <javac srcdir="${src.dir}" includes="**/*.java" destdir="${classes.dir}"/>
+    </target>
+
+    <target name="compile-tests">
+        <mkdir dir="${tests.dir}"/>
+        <javac srcdir="${src.dir}" includes="**/*.java" destdir="${tests.dir}">
+            <classpath refid="test.classpath.id"/>
+        </javac>
+    </target>
+
+    <target name="unittest" depends="compile-tests">
+        <junit dir="${basedir}/target/junit" haltonerror="false" haltonfailure="false">
+            <classpath refid="test.classpath.id"/>
+            <classpath>
+                <pathelement location="${tests.dir}"/>
+            </classpath>
+            <test name="TicTacToeTest"/>
+            <formatter type="brief" usefile="false"/>
+        </junit>
+    </target>
+
+    <target name="install">
+        <echo message="Installing TicTacToe to ${user.home}/temp/TicTacToe"/>
+        <copy todir="${user.home}/temp/TicTacToe" overwrite="true">
+            <fileset dir="${basedir}/doc">
+                <include name="*"/>
+            </fileset>
+            <fileset dir="${basedir}/bin">
+                <include name="*"/>
+            </fileset>
+            <fileset dir="${basedir}/target">
+                <include name="classes/**/*"/>
+            </fileset>
+        </copy>
+        <exec executable="chmod" osfamily="unix">
+            <arg value="+xxx"/>
+            <arg value="${user.home}/temp/TicTacToe/TicTacToe.sh"/>
+        </exec>
+    </target>
+
+    <target name="execute">
+        <exec osfamily="unix" dir="${user.home}/temp/TicTacToe/" executable="${user.home}/temp/TicTacToe/TicTacToe.sh"/>
+        <exec osfamily="windows" dir="${user.home}/temp/TicTacToe/" executable="${user.home}/temp/TicTacToe/TicTacToe.bat"/>
+    </target>
+
+    <target name="all" depends="clean, compile, compile-tests, unittest, install, execute"/>
+
+</project>
