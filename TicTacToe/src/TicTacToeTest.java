@@ -102,7 +102,7 @@ public class TicTacToeTest extends TestCase {
         tictactoe.StoreMove(1);
         tictactoe.StoreMove(2);
         assertNotNull(tictactoe.movesMade);
-        assertEquals("Value Should be 1",1, (int)tictactoe.movesMade.get(0));
+        assertEquals("Value Should be 1", 1, (int) tictactoe.movesMade.get(0));
         assertEquals("Value Should be 1",2, (int)tictactoe.movesMade.get(1));
 
     }
@@ -200,6 +200,16 @@ public class TicTacToeTest extends TestCase {
     public void testIsMoveValidNotNumber() throws Exception{
         TicTacToe tic = new TicTacToe();
         assertFalse(tic.IsMoveValid("NotaNumberFrom1-9"));
+    }
+    public void testIsMoveValidLessThanOne() throws Exception{
+        TicTacToe tic = new TicTacToe();
+        assertFalse(tic.IsMoveValid("0"));
+        assertFalse(tic.IsMoveValid("-1"));
+    }
+    public void testIsMoveValidLargerThanNine() throws Exception{
+        TicTacToe tic = new TicTacToe();
+        assertFalse(tic.IsMoveValid("23"));
+        assertFalse(tic.IsMoveValid("10"));
     }
 
     public static Test suite() {

@@ -44,8 +44,14 @@ public class TicTacToe{
     public boolean IsMoveValid(String input){
         try{
             int move = Integer.parseInt(input);
+            if((move<1)){
+                return false;
+            }
+            if(move>9){
+                return false;
+            }
             for(Integer i : this.movesMade){
-                if(i == move) return false;
+                if(i == move ) return false;
             }
         }
         catch(Exception e)
