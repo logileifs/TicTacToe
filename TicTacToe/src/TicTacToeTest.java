@@ -2,7 +2,6 @@ import junit.framework.Test;
 import junit.framework.TestSuite;
 import junit.framework.TestCase;
 
-
 public class TicTacToeTest extends TestCase {
     public TicTacToeTest(String name) {
         super(name);
