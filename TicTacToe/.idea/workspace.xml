@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45d2ae0-3114-460d-933b-a1e9a2215058" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="C:\Users\Olafur\Documents\GitHub\TicTacToe\TicTacToe\out\production\TicTacToe\TicTacToe.class" afterPath="C:\Users\Olafur\Documents\GitHub\TicTacToe\TicTacToe\out\production\TicTacToe\TicTacToe.class" />
-      <change type="MODIFICATION" beforePath="C:\Users\Olafur\Documents\GitHub\TicTacToe\TicTacToe\out\production\TicTacToe\TicTacToeTest.class" afterPath="C:\Users\Olafur\Documents\GitHub\TicTacToe\TicTacToe\out\production\TicTacToe\TicTacToeTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TicTacToe/TicTacToe.class" afterPath="$PROJECT_DIR$/out/production/TicTacToe/TicTacToe.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TicTacToe.java" afterPath="$PROJECT_DIR$/src/TicTacToe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TicTacToeTest.java" afterPath="$PROJECT_DIR$/src/TicTacToeTest.java" />
     </list>
     <ignored path="TicTacToe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,7 +68,7 @@
       <file leaf-file-name="TicTacToe.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TicTacToe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="22" selection-start="1203" selection-end="1203" vertical-scroll-proportion="1.4496124">
+            <state line="218" column="42" selection-start="6575" selection-end="6575" vertical-scroll-proportion="0.79012346">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#TicTacToe#0;class#TicTacToe#0" expanded="false" />
@@ -93,26 +90,7 @@
         <entry file="file://$PROJECT_DIR$/src/TicTacToeTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="129" column="16" selection-start="5981" selection-end="5981" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#testMakeBoard#0;class#TicTacToeTest#0" expanded="false" />
-                <element signature="method#tearDown#0;class#TicTacToeTest#0" expanded="false" />
-                <element signature="method#testXmarkerMoveOne#0;class#TicTacToeTest#0" expanded="false" />
-                <element signature="method#testOmarkerMoveOne#0;class#TicTacToeTest#0" expanded="false" />
-                <element signature="method#testResetBoard#0;class#TicTacToeTest#0" expanded="false" />
-                <element signature="method#testStoreMove#0;class#TicTacToeTest#0" expanded="false" />
-                <element signature="method#testPlayer1set#0;class#TicTacToeTest#0" expanded="false" />
-                <element signature="method#testPlayer2set#0;class#TicTacToeTest#0" expanded="false" />
-                <element signature="method#testPlayer1Null#0;class#TicTacToeTest#0" expanded="false" />
-                <element signature="method#testPlayer2Null#0;class#TicTacToeTest#0" expanded="false" />
-                <element signature="method#testMoveAvailableFalse#0;class#TicTacToeTest#0" expanded="false" />
-                <element signature="method#testPlayerOneHasWonHorizontal#0;class#TicTacToeTest#0" expanded="false" />
-                <element signature="method#testPlayerOneHasWonDiagonal#0;class#TicTacToeTest#0" expanded="false" />
-                <element signature="method#testPlayerOneHasNotWon#0;class#TicTacToeTest#0" expanded="false" />
-                <element signature="method#testPlayerTwoHasWonHorizontal#0;class#TicTacToeTest#0" expanded="false" />
-                <element signature="method#testPlayerTwoHasWonVertical#0;class#TicTacToeTest#0" expanded="false" />
-                <element signature="method#testIsMoveValidNotNumber#0;class#TicTacToeTest#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -181,20 +159,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicTacToe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicTacToe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -210,6 +174,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TicTacToe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TicTacToe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TicTacToe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -261,6 +239,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TicTacToe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TicTacToe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -286,19 +278,19 @@
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="tictactoe" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.TicTacToeTest">
+  <component name="RunManager" selected="Application.TicTacToe">
     <configuration default="false" name="TicTacToe" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TicTacToe" />
@@ -455,7 +447,11 @@
       <created>1353684251919</created>
       <updated>1353684251919</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Færði töflu fyrir neðan player nöfnin í byrjun">
+      <created>1353865750846</created>
+      <updated>1353865750846</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -492,18 +488,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.78930306" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21927163" sideWeight="0.6709887" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42949757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21927163" sideWeight="0.6969206" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30307943" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.78930306" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -545,7 +541,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bætti við villutékki fyrir gildi minni en 1 og stærri en 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Færði töflu fyrir neðan player nöfnin í byrjun" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -561,6 +557,7 @@
     <MESSAGE value="Setti inn Build Scriptu" />
     <MESSAGE value="Leikur og test sett inn" />
     <MESSAGE value="Bætti við villutékki fyrir gildi minni en 1 og stærri en 9" />
+    <MESSAGE value="Færði töflu fyrir neðan player nöfnin í byrjun" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -588,9 +585,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/TicTacToe.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="48" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="10" column="48" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tictactoe.properties">
@@ -625,54 +620,29 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/junit-4.4.jar!/org/junit/runner/JUnitCore.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="35" selection-start="1084" selection-end="1084" vertical-scroll-proportion="-3.72">
-          <folding />
-        </state>
+        <state line="26" column="35" selection-start="1084" selection-end="1084" vertical-scroll-proportion="-3.72" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/junit-4.4.jar!/org/junit/internal/runners/JUnit38ClassRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="45" selection-start="1878" selection-end="1878" vertical-scroll-proportion="-2.88">
-          <folding />
-        </state>
+        <state line="35" column="45" selection-start="1878" selection-end="1878" vertical-scroll-proportion="-2.88" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/junit-4.4.jar!/org/junit/runner/Description.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="47" selection-start="909" selection-end="909" vertical-scroll-proportion="0.73170733">
-          <folding />
-        </state>
+        <state line="16" column="47" selection-start="909" selection-end="909" vertical-scroll-proportion="0.73170733" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TicTacToeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="129" column="16" selection-start="5981" selection-end="5981" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#testMakeBoard#0;class#TicTacToeTest#0" expanded="false" />
-            <element signature="method#tearDown#0;class#TicTacToeTest#0" expanded="false" />
-            <element signature="method#testXmarkerMoveOne#0;class#TicTacToeTest#0" expanded="false" />
-            <element signature="method#testOmarkerMoveOne#0;class#TicTacToeTest#0" expanded="false" />
-            <element signature="method#testResetBoard#0;class#TicTacToeTest#0" expanded="false" />
-            <element signature="method#testStoreMove#0;class#TicTacToeTest#0" expanded="false" />
-            <element signature="method#testPlayer1set#0;class#TicTacToeTest#0" expanded="false" />
-            <element signature="method#testPlayer2set#0;class#TicTacToeTest#0" expanded="false" />
-            <element signature="method#testPlayer1Null#0;class#TicTacToeTest#0" expanded="false" />
-            <element signature="method#testPlayer2Null#0;class#TicTacToeTest#0" expanded="false" />
-            <element signature="method#testMoveAvailableFalse#0;class#TicTacToeTest#0" expanded="false" />
-            <element signature="method#testPlayerOneHasWonHorizontal#0;class#TicTacToeTest#0" expanded="false" />
-            <element signature="method#testPlayerOneHasWonDiagonal#0;class#TicTacToeTest#0" expanded="false" />
-            <element signature="method#testPlayerOneHasNotWon#0;class#TicTacToeTest#0" expanded="false" />
-            <element signature="method#testPlayerTwoHasWonHorizontal#0;class#TicTacToeTest#0" expanded="false" />
-            <element signature="method#testPlayerTwoHasWonVertical#0;class#TicTacToeTest#0" expanded="false" />
-            <element signature="method#testIsMoveValidNotNumber#0;class#TicTacToeTest#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TicTacToe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="22" selection-start="1203" selection-end="1203" vertical-scroll-proportion="1.4496124">
+        <state line="218" column="42" selection-start="6575" selection-end="6575" vertical-scroll-proportion="0.79012346">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#TicTacToe#0;class#TicTacToe#0" expanded="false" />
