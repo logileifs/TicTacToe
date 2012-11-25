@@ -43,7 +43,7 @@
     </target>
 
     <target name="unittest" depends="compile-tests">
-        <junit dir="${basedir}/target/junit" haltonerror="false" haltonfailure="false">
+        <junit dir="${basedir}/target/junit" haltonerror="true" haltonfailure="true">
             <classpath refid="test.classpath.id"/>
             <classpath>
                 <pathelement location="${tests.dir}"/>
@@ -52,29 +52,7 @@
             <formatter type="brief" usefile="false"/>
         </junit>
     </target>
-<!--
-    <target name="install">
-        <echo message="Installing TicTacToe to ${user.home}/temp/TicTacToe"/>
-        <mkdir dir="${basedir}/doc"/>
-        <mkdir dir="${basedir}/bin"/>
-        <mkdir dir="${basedir}/target"/>
-        <copy todir="${user.home}/temp/TicTacToe" overwrite="true">
-            <fileset dir="${basedir}/doc">
-                <include name="*"/>
-            </fileset>
-            <fileset dir="${basedir}/bin">
-                <include name="*"/>
-            </fileset>
-            <fileset dir="${basedir}/target">
-                <include name="classes/**/*"/>
-            </fileset>
-        </copy>
-        <exec executable="chmod" osfamily="unix">
-            <arg value="+xxx"/>
-            <arg value="${user.home}/temp/TicTacToe/TicTacToe.sh"/>
-        </exec>
-    </target>
--->
+
     <target name="jar" depends="compile">
         <mkdir dir="${jar.dir}"/>
         <mkdir dir="${classes.dir}"/>
@@ -83,14 +61,11 @@
                 <attribute name="Main-Class" value="${main-class}"/>
             </manifest>
         </jar>
+	<chmod perm="+x">
+		<fileset dir="${jar.dir}"/>
+	</chmod>
     </target>
-<!--
-    <target name="execute">
-        <exec osfamily="unix" dir="${basedir}/temp/" executable="${basedir}/temp/TicTacToe.sh"/>
-        <exec osfamily="windows" dir="${basedir}/temp/" executable="${basedir}/temp/TicTacToe.bat"/>
-    </target>
--->
+
     <target name="all" depends="clean, compile, compile-tests, unittest, jar"/>
-<!--    <target name="execinstall" depends="install, execute"/>  -->
 
 </project>
