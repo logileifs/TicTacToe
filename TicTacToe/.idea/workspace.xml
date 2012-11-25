@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45d2ae0-3114-460d-933b-a1e9a2215058" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TicTacToe/TicTacToe.class" afterPath="$PROJECT_DIR$/out/production/TicTacToe/TicTacToe.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TicTacToeTest.java" afterPath="$PROJECT_DIR$/src/TicTacToeTest.java" />
     </list>
     <ignored path="TicTacToe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,10 +65,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TicTacToe.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TicTacToe.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TicTacToe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="218" column="42" selection-start="6575" selection-end="6575" vertical-scroll-proportion="0.79012346">
+            <state line="218" column="42" selection-start="6575" selection-end="6575" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#TicTacToe#0;class#TicTacToe#0" expanded="false" />
@@ -86,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacToeTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TicTacToeTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TicTacToeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="16" selection-start="5981" selection-end="5981" vertical-scroll-proportion="0.0">
+            <state line="88" column="45" selection-start="4220" selection-end="4220" vertical-scroll-proportion="0.51307845">
               <folding />
             </state>
           </provider>
@@ -117,8 +117,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/tictactoe.xml" />
-        <option value="$PROJECT_DIR$/src/TicTacToeTest.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToeTest.java" />
       </list>
     </option>
   </component>
@@ -451,7 +451,19 @@
       <created>1353865750846</created>
       <updated>1353865750846</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Villa í testi sett inn">
+      <created>1353865944530</created>
+      <updated>1353865944531</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Villa í testi tekin út">
+      <created>1353866056196</created>
+      <updated>1353866056196</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Villa í testi tekin út">
+      <created>1353866295176</created>
+      <updated>1353866295176</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -476,7 +488,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3987034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -494,8 +506,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21927163" sideWeight="0.6969206" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30307943" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21927163" sideWeight="0.84602916" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15397082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -541,7 +553,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Færði töflu fyrir neðan player nöfnin í byrjun" />
+    <option name="LAST_COMMIT_MESSAGE" value="Villa í testi tekin út" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -558,6 +570,8 @@
     <MESSAGE value="Leikur og test sett inn" />
     <MESSAGE value="Bætti við villutékki fyrir gildi minni en 1 og stærri en 9" />
     <MESSAGE value="Færði töflu fyrir neðan player nöfnin í byrjun" />
+    <MESSAGE value="Villa í testi sett inn" />
+    <MESSAGE value="Villa í testi tekin út" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -565,10 +579,17 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-    <buildFile url="file://$PROJECT_DIR$/tictactoe.xml">
+    <buildFile url="file://$PROJECT_DIR$/build.xml">
       <antCommandLine value="" />
       <runInBackground value="true" />
-      <targetFilters />
+      <targetFilters>
+        <filter targetName="unittest" isVisible="false" />
+        <filter targetName="compile-tests" isVisible="false" />
+        <filter targetName="clean" isVisible="false" />
+        <filter targetName="jar" isVisible="false" />
+        <filter targetName="compile" isVisible="false" />
+        <filter targetName="all" isVisible="false" />
+      </targetFilters>
       <treeView value="true" />
       <verbose value="true" />
       <viewClosedWhenNoErrors value="false" />
@@ -602,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tictactoe.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="43" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0648855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/junit-4.4.jar!/org/junit/runner/notification/RunNotifier.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="16" selection-start="1170" selection-end="1170" vertical-scroll-proportion="-2.08">
@@ -633,16 +647,9 @@
         <state line="16" column="47" selection-start="909" selection-end="909" vertical-scroll-proportion="0.73170733" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="16" selection-start="5981" selection-end="5981" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TicTacToe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="42" selection-start="6575" selection-end="6575" vertical-scroll-proportion="0.79012346">
+        <state line="218" column="42" selection-start="6575" selection-end="6575" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#TicTacToe#0;class#TicTacToe#0" expanded="false" />
@@ -656,6 +663,13 @@
             <element signature="method#ReadPlayerInput#0;class#TicTacToe#0" expanded="false" />
             <element signature="method#Win#0;class#TicTacToe#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="45" selection-start="4220" selection-end="4220" vertical-scroll-proportion="0.51307845">
+          <folding />
         </state>
       </provider>
     </entry>
