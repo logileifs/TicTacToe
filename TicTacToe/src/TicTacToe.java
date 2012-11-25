@@ -172,6 +172,7 @@ public class TicTacToe{
     public String ReadPlayerInput(String player, BufferedReader keyboard)throws IOException{
         System.out.println(player+" make your move");
         String input = keyboard.readLine();
+        Quit(input);
         if(IsMoveValid(input)){
             return input;
         }
@@ -222,16 +223,17 @@ public class TicTacToe{
         while(true){
 
             String input1 = tic.ReadPlayerInput(tic.player1, keyboard);
+            tic.Quit(input1);
             tic.WaitForMove(input1, tic.player1);
 
             tic.PrintBoard();
-            tic.Quit(input1);
 
             String input2 = tic.ReadPlayerInput(tic.player2, keyboard);
             tic.WaitForMove(input2, tic.player2);
 
             tic.PrintBoard();
-            tic.Quit(input1);
+
+
         }
     }
 }
