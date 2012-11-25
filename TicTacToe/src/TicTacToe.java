@@ -201,6 +201,7 @@ public class TicTacToe{
     public static void main(String[] args) throws  IOException{
         TicTacToe tic = new TicTacToe();
         System.out.println("-----------------Welcome to the game of TIC TAC TOE----------------------");
+
         System.out.println("To make your move enter a number between 1-9");
         System.out.println("Enter quit to leave the game.");
 
