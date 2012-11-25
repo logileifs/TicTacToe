@@ -211,10 +211,12 @@ public class TicTacToe{
         System.out.println("Enter Player 1 name :");
         String player1input = keyboard.readLine();
         tic.SetPlayer1(player1input);
+        tic.Quit(player1input);
 
         System.out.println("Enter Player 2 name :");
         String player2input = keyboard.readLine();
         tic.SetPlayer2(player2input);
+        tic.Quit(player2input);
 
         System.out.println("Player 1 name : "+ tic.player1 );
         System.out.println("Player 2 name : "+ tic.player2 );
