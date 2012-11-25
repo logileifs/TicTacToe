@@ -24,12 +24,15 @@
     </path>
 
     <target name="clean">
-        <delete dir="target" failonerror="true"/>
+        <delete dir="${build.dir}" failonerror="true"/>
+
     </target>
 
     <target name="compile">
-        <mkdir dir="target/classes"/>
-        <javac srcdir="${src.dir}" includes="**/*.java" destdir="${classes.dir}"/>
+        <mkdir dir="${build.dir}"/>
+        <javac srcdir="${src.dir}" includes="**/*.java" destdir="${build.dir}">
+            <classpath refid="test.classpath.id"/>
+        </javac>
     </target>
 
     <target name="compile-tests">
@@ -49,9 +52,12 @@
             <formatter type="brief" usefile="false"/>
         </junit>
     </target>
-
+<!--
     <target name="install">
         <echo message="Installing TicTacToe to ${user.home}/temp/TicTacToe"/>
+        <mkdir dir="${basedir}/doc"/>
+        <mkdir dir="${basedir}/bin"/>
+        <mkdir dir="${basedir}/target"/>
         <copy todir="${user.home}/temp/TicTacToe" overwrite="true">
             <fileset dir="${basedir}/doc">
                 <include name="*"/>
@@ -68,12 +74,23 @@
             <arg value="${user.home}/temp/TicTacToe/TicTacToe.sh"/>
         </exec>
     </target>
-
-    <target name="execute">
-        <exec osfamily="unix" dir="${user.home}/temp/TicTacToe/" executable="${user.home}/temp/TicTacToe/TicTacToe.sh"/>
-        <exec osfamily="windows" dir="${user.home}/temp/TicTacToe/" executable="${user.home}/temp/TicTacToe/TicTacToe.bat"/>
+-->
+    <target name="jar" depends="compile">
+        <mkdir dir="${jar.dir}"/>
+        <mkdir dir="${classes.dir}"/>
+        <jar destfile="${jar.dir}/${ant.project.name}.jar" basedir="${build.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="${main-class}"/>
+            </manifest>
+        </jar>
     </target>
-
-    <target name="all" depends="clean, compile, compile-tests, unittest, install, execute"/>
+<!--
+    <target name="execute">
+        <exec osfamily="unix" dir="${basedir}/temp/" executable="${basedir}/temp/TicTacToe.sh"/>
+        <exec osfamily="windows" dir="${basedir}/temp/" executable="${basedir}/temp/TicTacToe.bat"/>
+    </target>
+-->
+    <target name="all" depends="clean, compile, compile-tests, unittest, jar"/>
+<!--    <target name="execinstall" depends="install, execute"/>  -->
 
 </project>
