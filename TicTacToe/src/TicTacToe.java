@@ -203,7 +203,7 @@ public class TicTacToe{
         System.out.println("-----------------Welcome to the game of TIC TAC TOE----------------------");
         System.out.println("To make your move enter a number between 1-9");
         System.out.println("To enter quit to leave the game.");
-        tic.PrintBoard();
+
         InputStreamReader in = new InputStreamReader(System.in);
         BufferedReader keyboard = new BufferedReader(in);
 
@@ -215,9 +215,9 @@ public class TicTacToe{
         String player2input = keyboard.readLine();
         tic.SetPlayer2(player2input);
 
-        System.out.println("Player name 1:"+ tic.player1 );
-        System.out.println("Player name 2:"+ tic.player2 );
-
+        System.out.println("Player 1 name : "+ tic.player1 );
+        System.out.println("Player 2 name : "+ tic.player2 );
+        tic.PrintBoard();
 
         while(true){
 
