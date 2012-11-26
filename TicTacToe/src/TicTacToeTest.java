@@ -116,12 +116,12 @@ public class TicTacToeTest extends TestCase {
         ticTacToe.SetPlayer2("PlayerTwo");
         assertEquals("Value should be PlayerTwo","PlayerTwo", ticTacToe.player2);
     }
-    public void testPlayer1Null() throws Exception{
+    public void testPlayer1Empty() throws Exception{
         TicTacToe tic = new TicTacToe();
         tic.SetPlayer1("");
         assertEquals("Value should be Player1", "Player1", tic.player1);
     }
-    public void testPlayer2Null() throws Exception{
+    public void testPlayer2Empty() throws Exception{
         TicTacToe tic = new TicTacToe();
         tic.SetPlayer2("");
         assertEquals("Value should be Player2", "Player2", tic.player2);
@@ -210,6 +210,7 @@ public class TicTacToeTest extends TestCase {
         assertFalse(tic.IsMoveValid("23"));
         assertFalse(tic.IsMoveValid("10"));
     }
+
 
     public static Test suite() {
 return new TestSuite(TicTacToeTest.class);
