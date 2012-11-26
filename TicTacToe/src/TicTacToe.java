@@ -189,11 +189,14 @@ public class TicTacToe{
         System.out.println("Game Over Thanks for playing");
         System.out.println();
         System.out.println("Credits:");
+        System.out.println("Benedikt Logi Leifsson Sörensen.");
+        System.out.println("Halldór Vilhjálmsson");
+        System.out.println("Heimir Már Helgason");
         System.out.println("Ólafur Björn Magússon");
         System.out.println("Sindri Már Sigfússon");
-        System.out.println("Heimir Már Helgason");
-        System.out.println("Halldór Vilhjálmsson");
-        System.out.println("og svo Logi það er fullt nafn hans.");
+
+
+
         System.exit(0);
 
     }
@@ -205,11 +208,13 @@ public class TicTacToe{
         System.out.println("To make your move enter a number between 1-9");
         System.out.println("Enter quit to leave the game.");
 
-        String cmd = "";
+        //for testing purposes
+        String cmd = new String();
         for(String s : args){
             cmd  = s;
         }
         tic.Quit(cmd);
+
 
         InputStreamReader in = new InputStreamReader(System.in);
         BufferedReader keyboard = new BufferedReader(in);
