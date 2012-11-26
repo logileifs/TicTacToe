@@ -189,11 +189,11 @@ public class TicTacToe{
         System.out.println("Game Over Thanks for playing");
         System.out.println();
         System.out.println("Credits:");
-        System.out.println("Benedikt Logi Leifsson Sörensen.");
-        System.out.println("Halldór Vilhjálmsson");
-        System.out.println("Heimir Már Helgason");
-        System.out.println("Ólafur Björn Magússon");
-        System.out.println("Sindri Már Sigfússon");
+        System.out.println("Benedikt Logi Leifsson Sörensen");
+        System.out.println("Halldór Vilhjálmsson ");
+        System.out.println("Heimir Már Helgason ");
+        System.out.println("Ólafur Björn Magússon ");
+        System.out.println("Sindri Már Sigfússon. ");
 
 
 
