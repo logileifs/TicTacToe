@@ -1,28 +1,22 @@
 #!/bin/sh
 #cd /home/tester/git/TicTacToe/TicTacToe/
-#git pull | grep date
-
-dt=$(date)
 
 while :
 do
 dt=$(date)
 if git pull | grep -lq 'Already up-to-date' ;
 then
+	#echo $dt "- Nothing to do" #>> buildlog.txt
 	echo $dt "- Nothing to do"
 else
-	if ant all | grep -lq 'BUILD SUCCESSFUL' ;
+	echo $dt > lastbuild.txt
+	ant all >> lastbuild.txt >> buildlog.txt
+	cat lastbuild.txt
+	if cat lastbuild.txt | grep -lq 'BUILD SUCCESSFUL' ;
 	then
-		cd build/jar/
-		java -jar TicTacToe.jar
-		if grep -lq 'Enter Player 1 name :' ;
-		then
-			if quit | grep -lq 'Game Over' ;
-			then
-			cd ..
-			cd ..
-			fi
-		fi
+		git add -f build/jar/TicTacToe.jar
+		git commit -m "SUCCESFUL BUILD, PUSHED WORKING JAR FILE TO REPOSITORY"
+		git push https://username:password@github.com/Theragon/TicTacToe.git
 	fi
 fi
 sleep 10
