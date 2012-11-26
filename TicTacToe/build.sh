@@ -10,7 +10,9 @@ then
 	echo $dt "- Nothing to do"
 else
 	echo $dt > lastbuild.txt
-	ant all >> lastbuild.txt >> buildlog.txt
+	ant all >> lastbuild.txt
+	echo $dt >> buildlog.txt
+	ant all >> buildlog.txt
 	cat lastbuild.txt
 	if cat lastbuild.txt | grep -lq 'BUILD SUCCESSFUL' ;
 	then
