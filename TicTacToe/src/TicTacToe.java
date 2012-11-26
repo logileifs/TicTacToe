@@ -73,7 +73,7 @@ public class TicTacToe{
         this.player1 = player1;
     }
     public void SetPlayer2(String player2){
-        if(player2.isEmpty()){
+        if(player2.isEmpty()  || player2 == null){
             player2 = "Player2";
         }
         this.player2 = player2;
@@ -205,6 +205,12 @@ public class TicTacToe{
         System.out.println("To make your move enter a number between 1-9");
         System.out.println("Enter quit to leave the game.");
 
+        String cmd = "";
+        for(String s : args){
+            cmd  = s;
+        }
+        tic.Quit(cmd);
+
         InputStreamReader in = new InputStreamReader(System.in);
         BufferedReader keyboard = new BufferedReader(in);
 
@@ -217,6 +223,8 @@ public class TicTacToe{
         String player2input = keyboard.readLine();
         tic.SetPlayer2(player2input);
         tic.Quit(player2input);
+
+
 
         System.out.println("Player 1 name : "+ tic.player1 );
         System.out.println("Player 2 name : "+ tic.player2 );
