@@ -66,6 +66,12 @@
 	</chmod>
     </target>
 
-    <target name="all" depends="clean, compile, compile-tests, unittest, jar"/>
+    <target name="run" depends="compile">
+	<java classname="${main-class}" classpath="${build.dir}">
+		<arg value="quit"/>
+	</java>
+    </target>
+
+    <target name="all" depends="clean, compile, compile-tests, unittest, jar, run"/>
 
 </project>
