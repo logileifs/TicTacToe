@@ -40,7 +40,7 @@ public class TicTacToeTest extends TestCase {
         tictac.MakeMove("9",tictac.player1);
         assertEquals("Value should be X ", "X", tictac.board[0][0]);
         assertEquals("Value should be X ", "X", tictac.board[0][1]);
-        assertEquals("Value should be X ", "X", tictac.board[0][2]);
+        assertEquals("Value should be X ", "O", tictac.board[0][2]);
         assertEquals("Value should be X ", "X", tictac.board[1][0]);
         assertEquals("Value should be X ", "X", tictac.board[1][1]);
         assertEquals("Value should be X ", "X", tictac.board[1][2]);
