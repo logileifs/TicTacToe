@@ -1,0 +1,69 @@
+===================================================================================================
+===================================================================================================
+===================================================================================================
+=======================		    								            =======================
+=======================		    	Tic Tac Toe - Like never before         =======================
+=======================		    	                                        =======================
+===================================================================================================
+===================================================================================================
+===================================================================================================
+
+Group, Vondukallanir.
+Authors Benedikt Logi L Sörensen, Halldór Vilhjálmsson, Heimir Már Helgason, Ólafur Björn Magnússon, Sindri Már Sigfússon
+For any questions or hints please contact us via email: logantheragon@gmail.com
+
+Table of Contents, Administration manual
+
+1. Information about Tic Tac Toe
+2. How to install the game
+ 2.1. - Tools required for play
+ 2.2. - Install on Windows 7/8
+ 2.3. - Install on Linux
+3. How to play the game
+
+								1. Information about Tic Tac Toe
+
+	Tic-tac-toe (or noughts and crosses) is a game for two players, X and O, who take turns marking the spaces
+	in a 3×3 grid. The player who succeeds in placing three respective marks in a horizontal, vertical,
+	or diagonal row wins the game.
+	
+
+								
+								2. How to Install the game on Windows 7/8
+	
+	2.1. - The only tool needed to run TicTacToe is Java runtime enviroment. For both windows or Linux get JDK 7u9
+	or newer. Go to
+	http://www.oracle.com/technetwork/java/javase/downloads/jre7u9-downloads-1859586.html and follow the install
+	instructions. or aquire further information about java at http://www.oracle.com/ 
+	
+	2.2. Run cmd. To run cmd press the windows button, type "cmd" into the search bar and press enter. 
+	Next navigate into the directory you extracted the game using the cd command. example 
+	"cd C:\Games\TicTacToe\build\jar\" Once you are in the same directory as TicTacToe\build\jar\ 
+	type "java -jar TicTacToe.jar"
+	
+	2.3 To run the game on Linux navigate into the directory the game is located. To navigate to the correct
+	folder use the cd command, example "cd Games/TicTacToe/build/jar/" Once you are in the same directory 
+	as TicTacToe/build/jar/ type "java -jar TicTacToe.jar"
+	
+	
+								3. How to play the game
+	
+	First type a name for player one and then player two. Player one can choose his first move by typing in
+	a number for the square he wishes to tag. For an example upper left square is number 1, type "1" and enter.
+	This is how the board looks after:
+	  
+	|X||2||3|
+	|4||5||6|
+	|7||8||9|
+	
+	Then player two can make his for, for instance the middle square 5, the board changes to:
+	
+	|X||2||3|
+	|4||O||6|
+	|7||8||9|
+	
+	The first one to get 3 in a row wins. Now the two players can engage in intense Tic Tac Toe playing. 
+	To end the game type: quit
+	
+	
+	

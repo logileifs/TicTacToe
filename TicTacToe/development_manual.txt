@@ -1,0 +1,65 @@
+===================================================================================================
+===================================================================================================
+===================================================================================================
+=======================		    								            =======================
+=======================		    	Tic Tac Toe - Like never before         =======================
+=======================		    	                                        =======================
+===================================================================================================
+===================================================================================================
+===================================================================================================
+
+Group, Vondukallanir.
+Authors Benedikt Logi L Sörensen, Halldór Vilhjálmsson, Heimir Már Helgason, Ólafur Björn Magnússon, Sindri Már Sigfússon
+For any questions or hints please contact us via email: logantheragon@gmail.com
+
+Table of Contents, Development manual
+
+1. Information about Tic Tac Toe
+2. Tools required for the project
+	2.1.1 - Subversion and downloading
+	2.1.2 - How to compile and run
+	2.1.3 - How to create a .jar file
+	2.1.4 - Set up the game on a Linux test server
+
+
+							1. Information about Tic Tac Toe
+
+	Tic-tac-toe (or noughts and crosses) is a game for two players, X and O, who take turns marking the spaces
+	in a 3×3 grid. The player who succeeds in placing three respective marks in a horizontal, vertical,
+	or diagonal row wins the game.
+
+
+							2. Tools required for the project
+							
+	2.1.1 - Subversion and downloading
+	Source control client used is GitHub version 1.0.29.9 To retrive the protect go to 
+	https://github.com/Theragon/TicTacToe. You can download the project as .zip for windows or .tar.gz for linux. 
+	You can also get Github at https://github.com/ and clone the project in the GitHub client.
+	
+	2.1.3 - How to compile and run		
+	To compile the code use Java JDK 7u9 and to run the compiled code use JRE java enviroment.
+	Java JDK and JRE version 7 or newer, http://www.oracle.com/technetwork/java/javase/downloads/index.html
+		
+	To open the project files use IntelliJ Idea version 11.1 or newer. However IntelliJ is not free so if you
+	wish to modify the code as a project you are required to purchase IntelliJ. You can also import the .java
+	files into another enviroment and create a new project. Please follow GNU - General Public License
+	when you alter the game. We also recommend you get a Git plugin for IntelliJ, Git Bash.
+	GNU, http://en.wikipedia.org/wiki/GNU_General_Public_License
+	IntelliJ, http://www.jetbrains.com/idea/
+	Git Bash plugin, http://git-scm.com/downloads
+	
+	other suggested enviroment to work in, Eclipse, http://www.eclipse.org/downloads/
+	
+	2.1.4 - How to create a .jar file
+	To build the code into a runnable .jar file(jar files are needed to run the project as a excecutable code)
+	ANT is required. To build the project with ANT use the provided build.xml file. To use the file
+	open cmd in windows or go to command line in Linux. Then navigate into the project directory and type "ant all"
+	ANT, http://ant.apache.org/bindownload.cgi
+	
+	2.1.5 - Set up the game on a Linux test server
+	To setup a Linux test server start by installing Java JDK and JRE, ANT on the server. That will suffice however
+	feel free to use our shell script, build.sh. It retrieves the newest git version and builds the game. 
+	You are required to change the user/password within the file, so it has access to the git reposatory.
+
+	 
+		
