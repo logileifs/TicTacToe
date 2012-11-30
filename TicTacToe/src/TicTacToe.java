@@ -73,6 +73,8 @@ public class TicTacToe{
         }
         this.player1 = player1;
     }
+
+    // sett tin comment
     public void SetPlayer2(String player2){
         if(player2.isEmpty()){
             player2 = "Player2";
