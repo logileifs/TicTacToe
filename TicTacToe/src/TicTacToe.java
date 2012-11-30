@@ -25,6 +25,7 @@ public class TicTacToe{
             for(int j = 0; j < 3; j++){
                 board[i][j] = Integer.toString(count);
                 count++;
+
             }
         }
     }
@@ -73,7 +74,7 @@ public class TicTacToe{
         this.player1 = player1;
     }
     public void SetPlayer2(String player2){
-        if(player2.isEmpty()  || player2 == null){
+        if(player2.isEmpty()){
             player2 = "Player2";
         }
         this.player2 = player2;
