@@ -13,7 +13,7 @@ public class TicTacToeTest extends TestCase {
         TicTacToe tictac = new TicTacToe();
         assertEquals("Value should be 1 ", "1", tictac.board[0][0]);
         assertEquals("Value should be 2 ", "2", tictac.board[0][1]);
-        assertEquals("Value should be 3 ", "3", tictac.board[0][2]);
+        assertEquals("Value should be 3 ", "4", tictac.board[0][2]);
         assertEquals("Value should be 4 ", "4", tictac.board[1][0]);
         assertEquals("Value should be 5 ", "5", tictac.board[1][1]);
         assertEquals("Value should be 6 ", "6", tictac.board[1][2]);
